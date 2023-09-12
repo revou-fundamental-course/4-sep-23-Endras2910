@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SEFC RevoU</title>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<script src="JS/script.js"></script>
+</head>
+<body>
+<header>
+	<h1>Kalkulator Persegi</h1>
+</header>
+<section>
+	<h3>Luas Persegi</h3>
+	<center><img src="ASSET/persegi.png"></center>
+	<h4>Rumus Luas Persegi yaitu :</h4>
+	<center><h2 class="bingkai">L = S x S</h2></center>
+	<h4>Keterangan : <br>
+		L = Luas <br>
+		S = Panjang Sisi</h4>
+	<hr>
+	<h3>Hitung Luas Persegi</h3>
+	<form><center>
+		<input type="number" id="sisi" placeholder="Panjang Sisi"></form>
+		</center>
+	<center><button id="hitungluas">Hitung</button>
+		<button type="Reset">Reset</button></center>
+		<div id="outputluas"></div>
+
+</section>
+
+<aside>
+	<h3>Keliling Persegi</h3>
+	<center><img src="ASSET/persegi.png"></center>
+	<h4>Rumus Keliling Persegi yaitu :</h4>
+	<center><h2 class="bingkai">K = 4 x S</h2></center>
+	<h4>Keterangan : <br>
+		K = Keliling <br>
+		S = Panjang Sisi
+	</h4>
+	<hr>
+	<h3>Hitung Keliling Persegi</h3>
+	<form><center>
+		<input type="number" id="sisi2" placeholder="Panjang Sisi"></center></form>
+	<center><button id="hitungkel">Hitung</button>
+		<button type="Reset">Reset</button></center>
+		<div id="outputkel"></div>
+</aside>
+
+<script type="text/javascript">
+	const sisi = document.getElementById('sisi')
+	const hitungluas = document.getElementById('hitungluas')
+	const outputluas = document.getElementById('outputluas')
+	hitungluas.addEventListener('click', function(){
+		let x = sisi.value
+		let y = x*x
+		outputluas.innerHTML = `Luas persegi dari sisi ${x} cm adalah ${y} cm2`
+	})
+
+	const sisi2 = document.getElementById('sisi2')
+	const hitungkel = document.getElementById('hitungkel')
+	const outputkel = document.getElementById('outputkel')
+	hitungkel.addEventListener('click', function(){
+		let m = sisi2.value
+		let n = 4*m
+		outputkel.innerHTML = `Keliling persegi dari sisi ${m} cm adalah ${n} cm2`
+	})
+</script>
+
+<footer>
+	<h5>Software Engineering Fundamental Course Batch September 2023</h5>
+</footer>
+</body>
+</html>

@@ -1,0 +1,112 @@
+header {
+	background: #F2BED1;
+	height: 70px;
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 20px;
+}
+h1 {
+	font-family: cursive;
+	font-size: 30px;
+	color: #F9F5F6 ;
+	text-transform: uppercase;
+}
+section {
+	float: left;
+	width: 50%;
+	background: #F9F5F6;
+	height: 700px ;
+}
+aside {
+	float: left;
+	width: 50%;
+	background: #F8E8EE;
+	height: 700px ;
+}
+h3 {
+	font-family: Trebuchet MS;
+	font-size: 20px;
+	color: #E8A0BF;
+    text-align: center;
+    text-decoration: underline #F2BED1;
+}
+img {
+	width: 200px;
+}
+h4 {
+	font-family: Trebuchet MS;
+	padding-left: 50px;
+	font-size: 15px;
+}
+h2 {
+	font-family: georgia;
+	text-align: center;
+}
+form {
+	padding-left: 20px;
+}
+input {
+	padding: 10px;
+	width: 80%;
+	border-radius: 10px;
+	border: 2px solid #F2BED1;
+	outline: none;
+	font-family: Trebuchet MS;
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+button {
+	background: #E8A0BF;
+	padding: 10px 20px;
+	border-radius: 10px;
+	border: none;
+	font-weight: bold;
+	font-family: Trebuchet MS;
+	color: #F9F5F6;
+	cursor: pointer;
+	margin-right: 20px;
+}
+footer {
+	float: left;
+	background: #F2BED1;
+	height: 50px;
+	text-align: center;
+	padding-bottom: 40px;
+	width: 100%;
+}
+h5 {
+	font-family: cursive;
+	font-size: 15px;
+	color: #F9F5F6 ;
+}
+input:focus {
+	border-color: #632626;
+}
+button:hover {
+	background-color: #632626;
+}
+button:active {
+	transform: translate3d(10px, 5px, 5px);
+}
+
+.bingkai {
+	border-style: ridge;
+	padding: 10px;
+	width: 200px;
+
+}
+#outputluas {
+	font-family: Trebuchet MS;
+	margin-top: 30px;
+	font-size: 15px;
+	margin-left: 30px;
+	font-weight: bolder;
+}
+
+#outputkel {
+	font-family: Trebuchet MS;
+	margin-top: 30px;
+	font-size: 15px;
+	margin-left: 30px;
+	font-weight: bolder;
+}
